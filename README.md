@@ -37,10 +37,6 @@ LC-Net consists of a 3-stage **hierarchical autoencoder** with:
 - Entropy coding using **zlib**
 - Progressive decoding via `f_dec1`, `f_dec2`, `f_dec3`
 
-```math
-\hat{\mathbf{e}}_2 = f_{\text{dec1}}(\mathbf{e}_3), \quad 
-\hat{\mathbf{e}}_1 = f_{\text{dec2}}(\text{concat}(\hat{\mathbf{e}}_2, \mathbf{e}_2)), \quad 
-\hat{\mathbf{x}} = f_{\text{dec3}}(\text{concat}(\hat{\mathbf{e}}_1, \mathbf{e}_1))
 
 
  Dataset & Evaluation
