@@ -41,6 +41,7 @@ LC-Net consists of a 3-stage **hierarchical autoencoder** with:
 
  Dataset & Evaluation
  Trained and evaluated on CIFAR-10 (32×32 RGB)
+ Trained on different image dataset like Kodak.
 
  Metrics used: PSNR, SSIM, and BPP
 
